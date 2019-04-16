@@ -3,7 +3,7 @@
  {
  "type": "googlecompute",
  "project_id": "infra-237414",
- "image_name": "reddit-base-app",
+ "image_name": "reddit-base-db",
  "source_image": "ubuntu-1604-xenial-v20190411",
  "zone": "europe-west1-b",
  "ssh_username": "appuser",
@@ -11,9 +11,9 @@
  }
  ],
 "provisioners": [
- {
+{
  "type": "ansible",
- "playbook_file": "scripts/reddit_app.yml"
+ "playbook_file": "scripts/reddit_app_db.yml"
  }
  ]
-}
+ }
