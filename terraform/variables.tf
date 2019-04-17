@@ -8,7 +8,7 @@ variable app_disk_image {
  }
  variable public_key_path {
  description = "Public ssh key"
- default = "~/.ssh/id_ed25519.pub"
+ default = "~/.ssh/appuser.pub"
  }
  variable project {
  description = "Project ID"
